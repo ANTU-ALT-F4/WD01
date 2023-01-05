@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My exciting website!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <div class="top">
+            <div class="nav-top">My exciting website!</div>
+            <div class="nav-container" id="abc">
+                <a href="">Home</a>
+                <a href="">Blog</a>
+                <a href="">About us</a>
+                <a href="">Cur history</a>
+                <a href="">Contacts</a>
+            </div>
+        </div>
+        <div class="body-container">
+            <div style="font-size: 25px; margin-top: 20px; font-weight: bold !important; color: black !important;">An Exciting Blog Post</div>
+            <div>
+                <a href="http://www.vlute.edu.vn/">
+                    <img src="baloon.jpg" alt="ballon.jpg" class="ballon">
+                </a>
+            </div>
+            <div class="disc">
+                <div>This wiki is dedicated to the humble rubber balloon. We've got everything you decorating with and
+                    enjoying balloons: brand reviews.</div>
+                <div>
+                    The rubber balloon was invented by Michael Faraday in 1824, during experiments with various
+                    gases.Definitions aside we all know what a balloon is and still enjoy it, well most of us.
+                </div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+                <div>A Balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous
+                    oxide, oxygen, or air. Modern day balloons are made from materials such as rubber, latex,
+                    polychloroprene, or a nylon fabric, and can come in many colors. Some early balloons were made of
+                    dried animal bladders, such as the pig bladder. Some balloons are used for decorative purposes,
+                    while others are used for practical purposes such as meteorology, medical treatment, military
+                    defense, or transportation. A balloon's properties, including its low density and low cost, have led
+                    to a wide range of applications.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    var el = document.getElementById("abc");
+    console.log(el.offsetTop);
+    window.onscroll = function(e){
+        //console.log(window.scrollY);
+        if(window.scrollY > 64){
+            el.style.position = "fixed";
+            el.style.top = "0px";
+        }else{
+            el.style.position = "relative";
+        }
+    };
+</script>
+
+</html>
